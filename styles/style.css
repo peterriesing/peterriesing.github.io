@@ -150,6 +150,11 @@ header {
   margin: 0px 10%;
 }
 
+.projpage {
+  margin: 100px auto;
+  max-width: 1000px;
+}
+
 /* Niveau Grotesk Regular
 font-family: "niveau-grotesk", sans-serif;
 font-weight: 400;
