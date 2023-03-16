@@ -150,9 +150,76 @@ header {
   margin: 0px 10%;
 }
 
+/* ===============  PROJECT PAGES  =============== */
+
 .projpage {
   margin: 100px auto;
-  max-width: 1000px;
+  max-width: 900px;
+}
+
+.projtop {
+  margin: 50px 0px;
+  display: flex;
+  gap: 60px;
+}
+
+.projhead h1 {
+  margin: 0px;
+}
+
+.projhead h2 {
+  margin: 0px;
+}
+.projlinks {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.projlinks a {
+  font-family: "niveau-grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.projlinks a:hover {
+  color: black;
+}
+
+.projtech h1 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid cadetblue;
+  padding-bottom: 0.5rem;
+}
+.projtech h3 {
+  list-style: none;
+  font-family: "niveau-grotesk", sans-serif;
+  font-weight: 500;
+  margin: 0.5rem 0rem;
+  font-size: 1rem;
+}
+.projrow {
+  display: flex;
+  gap: 50px;
+  margin: 50px 0px;
+}
+.projimgrow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgleft {
+  width: 300px;
+}
+
+.imgwide {
+  width: 420px;
+}
+
+.icon {
+  height: 20px;
 }
 
 /* Niveau Grotesk Regular
