@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="vote" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../public/pr.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../public/pr.svg" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.typekit.net/tvi6bzp.css" />
     <link rel="stylesheet" href="/styles/style.css" />
     <title>Peter Riesing - Vote</title>
@@ -17,11 +17,105 @@
         <a href="../about.html" class="navitem">about</a>
         <a href="../resume.html" class="navitem">resume</a>
         <a href="../contact.html" class="navitem">contact</a>
-      </div>
-      <div>
-        <h1>Vote</h1>
-        <h2>An app to make voting more accessible</h2>
+        <div class="socialicons">
+          <a href="https://www.instagram.com/peter.riesing/"
+            ><img
+              class="icon"
+              src="../../public/icon_instagram.svg"
+              alt="instagram"
+          /></a>
+          <a href="https://github.com/peterriesing"
+            ><img class="icon" src="../../public/icon_github.svg" alt="github"
+          /></a>
+          <a href="https://www.linkedin.com/in/peter-riesing-5059b3258/"
+            ><img
+              class="icon"
+              src="../../public/icon_linkedin.svg"
+              alt="linkedin"
+          /></a>
+        </div>
       </div>
     </header>
+    <div class="projpage">
+      <div class="projtop">
+        <div class="projhead">
+          <h1>Vote!</h1>
+          <h2>An Express Voting App</h2>
+          <div class="projlinks">
+            <a href="https://github.com/Meg-Div/BackendProject">GitHub Repo</a>
+            <a href="https://dev.to/megdiv/vote-58eb">Article</a>
+            <a href="https://www.youtube.com/watch?v=bfhh4Ibjlh0"
+              >Recorded Walkthrough</a
+            >
+          </div>
+          <p>
+            Vote is a collaboration between myself and Meg Divringi for our
+            backend project with Digital Crafts. For this project we were tasked
+            with using Express.js and Node.js to create a backend-focused app.
+            The app idea for Vote is to make voting easier on the public. Vote
+            takes in a user who creates an account and encrypts their password
+            using bcrypt. The user, based on their ZIP code, is assigned to a
+            voting district. From the district HUB they can vote for candidates
+            within the district. I'd love to see an app like this in use for
+            future voting in the US.
+          </p>
+        </div>
+        <div class="projtech">
+          <h1>Tenchnologies</h1>
+          <h3>Express.js</h3>
+          <h3>Node.js</h3>
+          <h3>RPostgreSQL</h3>
+          <h3>Bcrypt</h3>
+          <h3>Sequelize</h3>
+          <h3>CSS</h3>
+          <h3>Adobe Illustrator</h3>
+          <h3>Adobe XD</h3>
+        </div>
+      </div>
+      <div class="projlogo">
+        <img
+          class="votelogo"
+          src="../../public/vote/vote_purple.svg"
+          alt="vote"
+        />
+      </div>
+      <div class="projrow">
+        <img src="../../public/vote/left.svg" alt="eclipse" />
+      </div>
+      <div class="projrow">
+        <div class="textright">
+          <h3>Role</h3>
+          <p>
+            My role began with helping to establish the tables within the
+            database and seeding them with information. Next I created a basic
+            page layout detailing each pages function and a general flow. From
+            there I created pages and partials for the app using Express.js. I
+            assited in setting up routes to the database for the required CRUD.
+            To finish, I implemented styling based on the brand I created using
+            CSS & I made landing and 'you voted!' illustrations.
+          </p>
+        </div>
+        <img
+          class="imgtall"
+          src="../../public/vote/vote_home.svg"
+          alt="vote mobile"
+        />
+      </div>
+      <p>Initial page layout design</p>
+      <div class="projrow">
+        <img src="../../public/vote/pages.svg" alt="page layout" />
+      </div>
+      <p>Landing page illustration made in Adobe Illustrator</p>
+      <div class="projrow">
+        <img src="../../public/vote/splash2.svg" alt="landing" />
+      </div>
+      <div class="projimgrow">
+        <img
+          class="imgtall"
+          src="../../public/vote/badge.svg"
+          alt="voted badge"
+        />
+      </div>
+    </div>
   </body>
 </html>

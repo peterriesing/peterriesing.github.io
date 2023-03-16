@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="shake" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../public/pr.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../public/pr.svg" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.typekit.net/tvi6bzp.css" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Peter Riesing - ShakeUp</title>
+    <title>Peter Riesing - Shake Up</title>
   </head>
   <body>
     <header class="navbar">
@@ -17,11 +17,107 @@
         <a href="../about.html" class="navitem">about</a>
         <a href="../resume.html" class="navitem">resume</a>
         <a href="../contact.html" class="navitem">contact</a>
-      </div>
-      <div>
-        <h1>ShakeUp</h1>
-        <h2>A cocktail recipe search site</h2>
+        <div class="socialicons">
+          <a href="https://www.instagram.com/peter.riesing/"
+            ><img
+              class="icon"
+              src="../../public/icon_instagram.svg"
+              alt="instagram"
+          /></a>
+          <a href="https://github.com/peterriesing"
+            ><img class="icon" src="../../public/icon_github.svg" alt="github"
+          /></a>
+          <a href="https://www.linkedin.com/in/peter-riesing-5059b3258/"
+            ><img
+              class="icon"
+              src="../../public/icon_linkedin.svg"
+              alt="linkedin"
+          /></a>
+        </div>
       </div>
     </header>
+    <div class="projpage">
+      <div class="projtop">
+        <div class="projhead">
+          <h1>Shake Up</h1>
+          <h2>A Cocktail API Search App</h2>
+          <div class="projlinks">
+            <a
+              href="https://github.com/peterriesing/Peter---Digital-Crafts-Repo/tree/main/Projects/front_end_projects/Cocktail"
+              >GitHub Repo</a
+            >
+            <a href="https://medium.com/@peter.riesing/shaken-up-43c51ba49d1c"
+              >Article</a
+            >
+          </div>
+          <p>
+            This is my first full front-end project, assigned by Digital Crafts.
+            It uses html, css, and javascript to make a cohesive site. The
+            entire site is based around the API from TheCocktailDB, an extensive
+            collection of cocktail objects. Each object has values like drink
+            name, glass type, a thumbnail image of the cocktail, ingredients and
+            their measurements, recipe instructions, and other values. The site
+            I created calls a thumbnail and name of cocktails relating to a
+            search input. Once the name of the cocktail is clicked, the user is
+            redirected to a blank recipe page that is populated by the API by
+            more information.
+          </p>
+        </div>
+        <div class="projtech">
+          <h1>Tenchnologies</h1>
+          <h3>Javascript</h3>
+          <h3>HTML</h3>
+          <h3>CSS</h3>
+          <h3>Adobe Illustrator</h3>
+        </div>
+      </div>
+      <div class="projlogo">
+        <img
+          src="../../public/shake/1_3cWqOMKlkntPipn0rX8yWA.webp"
+          alt="logo"
+        />
+      </div>
+      <div class="projrow">
+        <div class="textright">
+          <h3>Role</h3>
+          <p>
+            This was a solo project. HTML pages were set up then Javascript was
+            linked to render images and API objects. To render a cocktail card
+            with just basic information an API call by name is run. To send that
+            information to a recipe page another API call had to be made using
+            the cocktail's id. The id is stored in local storage on the browser
+            and populates the recipe card with further information. The object
+            that is returned uses DOM manipulation to generate HTML elements,
+            assign class names, and edit values.
+          </p>
+        </div>
+        <img
+          class="imgtall"
+          src="../../public/shake/shakelogo.svg"
+          alt="ball"
+        />
+      </div>
+      <p>Recipe card</p>
+      <div class="projimgrow">
+        <img
+          src="../../public/shake/1_Dmsk1hFqp_me5_Fac1-g1w.webp"
+          alt="recipe card"
+        />
+      </div>
+      <p>Homepage with featured cocktails</p>
+      <div class="projimgrow">
+        <img
+          src="../../public/shake/1_ISsnmEATmwWrX8KZ4zTFcQ.webp"
+          alt="home page"
+        />
+      </div>
+      <p>Search bar with background image</p>
+      <div class="projimgrow">
+        <img
+          src="../../public/shake/1_oep46FQKVxYGo03BA9sqvg.webp"
+          alt="search bar"
+        />
+      </div>
+    </div>
   </body>
 </html>

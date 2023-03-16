@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="avocado" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,10 +17,26 @@
         <a href="../about.html" class="navitem">about</a>
         <a href="../resume.html" class="navitem">resume</a>
         <a href="../contact.html" class="navitem">contact</a>
+        <div class="socialicons">
+          <a href="https://www.instagram.com/peter.riesing/"
+            ><img
+              class="icon"
+              src="../../public/icon_instagram.svg"
+              alt="instagram"
+          /></a>
+          <a href="https://github.com/peterriesing"
+            ><img class="icon" src="../../public/icon_github.svg" alt="github"
+          /></a>
+          <a href="https://www.linkedin.com/in/peter-riesing-5059b3258/"
+            ><img
+              class="icon"
+              src="../../public/icon_linkedin.svg"
+              alt="linkedin"
+          /></a>
+        </div>
       </div>
     </header>
     <div class="projpage">
-      <img src="../../public/avocado/avocado_green.svg" alt="avocado" />
       <div class="projtop">
         <div class="projhead">
           <h1>Avocado</h1>
@@ -42,7 +58,7 @@
             technologies we had learned. Avocado is a service like Toast or
             UnTappd where restaurants can upload menu items and track orders.
             Customers can login or continue as a guest and order items from a
-            restaurant.
+            restaurant. Owners can manage restaurant information, update menus and account information, and view order reports using Plotly. Owners also have access to a back of house screen populated with orders placed at a restaurant they own.
           </p>
         </div>
         <div class="projtech">
@@ -54,28 +70,21 @@
           <h3>Adobe Illustrator</h3>
         </div>
       </div>
+      <img src="../../public/avocado/avocado_green.svg" alt="avocado" />
       <div class="projrow">
         <img
-          class="imgleft"
+          class="imgtall"
           src="../../public/avocado/login.svg"
           alt="mobile login"
         />
         <div class="textright">
+          <h3>Role</h3>
           <p>
-            My responsibilities were primarily frontend for Avocado. Before we
-            were allowed to start we had to have a basic brand and theme for our
-            project. Using Adobe illustrator I made a one-page branding guide
-            including logos, icons, color palette, and fonts. I also outlined
-            the pages we would want then mocked up desktop and mobile versions
-            of each using Adobe Illustrator. We found having a framwork for
-            building the site helped ease the styling process as we progressed
-            in the project.
+            I assisted the group by creating the brand guide as well as the intial page layouts for the project using Adobe Illustrator. Pages were made using React.jsx files and components and routed with Browser Router. Variables like shopping cart, customer & restaurant information were stored in the Redux store along with a handful of functions used across the site. Supabase was used to create databases for customers, owners, restaurants, menu items, orders, and order items. Each of these tables have routes to create, read, update, and delete rows within the database. Functions to do CRUD from the database were called on the frontend for their relevant pages. My role with these routes was primarily focused on restaurant management and customer orders.
           </p>
         </div>
       </div>
-      <div class="projrow">
-        <p></p>
-      </div>
+      <p>Restaurant management desktop mockups</p>
       <div class="projimgrow">
         <img
           class="imgwide"
@@ -88,22 +97,23 @@
           alt="admin dashboard"
         />
       </div>
+      <p>Order confirmed illustration and user account mobile page mockup</p>
+      <div class="projimgrow">
+        <img class="imgtall" src="../../public/avocado/finished.svg" alt="order confirmed">
+        <img class="imgtall" src="../../public/avocado/useracct.svg" alt="user account" />
+      </div>
+      <p class="caption">Logos made in Adobe Illustrator based on teachers at DC</p>
+      <div class="fakelogos">
+        <img class="fakelogo" src="../../public/avocado/chezgula.svg" alt="chez gula">
+        <img class="fakelogo" src="../../public/avocado/joysjuicebar.svg" alt="joys juice bar">
+        <img class="fakelogo" src="../../public/avocado/mcryans.svg" alt="mcryans">
+        <img class="fakelogo" src="../../public/avocado/sloppyjoes.svg" alt="sloppy joes">
+      </div>
+      <p>Admin dashboard landing image also made in Illustrator</p>
+      <div class="projimgrow">
+        <img src="../../public/avocado/dashboard_illustration.svg" alt="dashboard image">
+      </div>
+    </div>
     </div>
   </body>
-  <footer>
-    <div class="socialicons">
-      <a href="https://www.instagram.com/peter.riesing/"
-        ><img
-          class="icon"
-          src="../../public/icon_instagram.svg"
-          alt="instagram"
-      /></a>
-      <a href="https://github.com/peterriesing"
-        ><img class="icon" src="../../public/icon_github.svg" alt="github"
-      /></a>
-      <a href="https://www.linkedin.com/in/peter-riesing-5059b3258/"
-        ><img class="icon" src="../../public/icon_linkedin.svg" alt="linkedin"
-      /></a>
-    </div>
-  </footer>
 </html>
