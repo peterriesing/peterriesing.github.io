@@ -278,10 +278,11 @@ header {
 .stack {
   display: flex;
   justify-content: space-between;
+  margin: auto 25%;
 }
 
 .aboutsection {
-  margin-top: 50px;
+  margin: 5% 25%;
   display: flex;
   gap: 50px;
   align-items: center;
