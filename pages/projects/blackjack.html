@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="blackjack" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../public/pr.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../public/pr.svg" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.typekit.net/tvi6bzp.css" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Peter Riesing - BlackJack</title>
+    <title>Peter Riesing - Blackjack</title>
   </head>
   <body>
     <header class="navbar">
@@ -16,14 +16,14 @@
         <a href="../../index.html" class="navitem">home</a>
         <a href="../about.html" class="navitem">about</a>
         <div class="socialicons">
+          <a href="https://github.com/peterriesing"
+            ><img class="icon" src="../../public/icon_github.svg" alt="github"
+          /></a>
           <a href="https://www.instagram.com/peter.riesing/"
             ><img
               class="icon"
               src="../../public/icon_instagram.svg"
               alt="instagram"
-          /></a>
-          <a href="https://github.com/peterriesing"
-            ><img class="icon" src="../../public/icon_github.svg" alt="github"
           /></a>
           <a href="https://www.linkedin.com/in/peter-riesing-5059b3258/"
             ><img
@@ -34,5 +34,59 @@
         </div>
       </div>
     </header>
+    <div class="projpage">
+      <div class="projtop">
+        <div class="projhead">
+          <h1>Blackjack</h1>
+          <h2>A Javascript Browser Game</h2>
+          <div class="projlinks">
+            <a
+              href="https://github.com/peterriesing/Peter---Digital-Crafts-Repo/tree/main/Code/Blackjack"
+              >GitHub Repo</a
+            >
+            <a href="../projects/Blackjack/blackjack.html">Play Here</a>
+          </div>
+          <p>
+            For this project we were tasked with creating a simple blackjack
+            game that runs in the browser and uses DOM manuipulation to access
+            cards and update scores. Hit and Stand functions enable the player
+            to keep their current cards or end the round. The dealer is
+            programmed to stand when the value of their cards is between 17 and
+            21. When you or the dealer bust the round ends.
+          </p>
+        </div>
+        <div class="projtech">
+          <h1>Tenchnologies</h1>
+          <h3>Javascript</h3>
+          <h3>HTML</h3>
+          <h3>CSS</h3>
+        </div>
+      </div>
+      <div class="projlogo">
+        <img src="../../public/bj/cards.svg" alt="dc cards" />
+      </div>
+      <div class="projrow">
+        <div class="textright">
+          <h3>Role</h3>
+          <p>
+            I created the game from start to finish. Code was built starting
+            with assigning value to the cards and then linking the suit and
+            value to the corresponding image file -
+            './image/${rank}_of_${suit}.png'. Next a shuffle function arranges
+            the cards in a random order. A deal function takes the top 4 cards
+            and assigns two each to the player and the dealer. A function to
+            calculate the score based on the cards value runs to let the dealer
+            know wether to hit or stand and to display the player's score. Ace's
+            have their own function to calculate value based on total hand
+            score. The hit function appends another card to the player's hand
+            array. Stand ends the game. Try it out.
+          </p>
+        </div>
+        <img
+          src="../../public/bj/Screen Shot 2023-03-16 at 8.43.47 PM.png"
+          alt="cards"
+        />
+      </div>
+    </div>
   </body>
 </html>
