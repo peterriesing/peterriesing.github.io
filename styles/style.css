@@ -346,7 +346,7 @@ header {
     font-size: xx-large;
   }
   .projpage {
-    margin: 10% 5%;
+    margin: 20% 5%;
   }
   .projtop {
     flex-direction: column;
@@ -379,6 +379,10 @@ header {
   }
   .resume {
     width: 100vw;
+  }
+  .socialicons {
+    display: flex;
+    flex-direction: column;
   }
 }
 /* Niveau Grotesk Regular
