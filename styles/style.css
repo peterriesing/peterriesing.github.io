@@ -385,6 +385,184 @@ header {
     flex-direction: column;
   }
 }
+/* =================== DESIGN PAGES ==================== */
+.designhtml {
+  background-color: #ffffff;
+}
+.design {
+  max-width: 1224px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.designpage {
+  margin: 100px auto;
+}
+
+.designtop {
+  margin: 50px 0px;
+  display: flex;
+  gap: 60px;
+}
+
+.designhead h1 {
+  margin: 0px;
+}
+
+.designlinks {
+  display: flex;
+  gap: 20px;
+}
+
+.designlinks a {
+  font-family: "niveau-grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.designlinks a:hover {
+  color: black;
+}
+.text_area {
+  display: flex;
+  flex-direction: row;
+  width: 1224px;
+  justify-content: space-between;
+}
+.text h2 {
+  font-size: 1rem;
+}
+.text p {
+  column-count: 2;
+  column-width: 300px;
+  column-gap: 24px;
+  column-fill: auto;
+  width: 800px;
+  height: 210px;
+  margin: 0px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  gap: 24px;
+  margin-top: 24px;
+}
+#img1 {
+  width: 1224px;
+  height: 600px;
+}
+#img2_1 {
+  width: 756px;
+  height: 288px;
+}
+#img2_2 {
+  width: 444px;
+  height: 288px;
+}
+#img3_1 {
+  width: 600px;
+  height: 288px;
+}
+#img3_2 {
+  width: 600px;
+  height: 288px;
+}
+#img4 {
+  width: 1224px;
+  height: 288px;
+}
+
+#img5_1 {
+  width: 288px;
+  height: 756px;
+}
+#img5_2 {
+  width: 600px;
+  height: 756px;
+}
+#img5_3 {
+  width: 288px;
+  height: 756px;
+}
+#img6_1 {
+  width: 444px;
+  height: 288px;
+}
+#img6_2 {
+  width: 288px;
+  height: 288px;
+}
+#img6_3 {
+  width: 444px;
+  height: 288px;
+}
+#img7 {
+  width: 1224px;
+  height: 288px;
+}
+#img8_1 {
+  width: 288px;
+  height: 288px;
+}
+#img8_2 {
+  width: 288px;
+  height: 288px;
+}
+#img8_3 {
+  width: 288px;
+  height: 288px;
+}
+#img8_4 {
+  width: 288px;
+  height: 288px;
+}
+#img9 {
+  width: 1224px;
+  height: 288px;
+}
+#img10_1 {
+  width: 288px;
+  height: 288px;
+}
+#img10_2 {
+  width: 288px;
+  height: 288px;
+}
+#img10_3 {
+  width: 288px;
+  height: 288px;
+}
+#img10_4 {
+  width: 288px;
+  height: 288px;
+}
+#img11 {
+  width: 1224px;
+  height: 132px;
+}
+#img12_1 {
+  width: 288px;
+  height: 288px;
+}
+#img12_2 {
+  width: 288px;
+  height: 288px;
+}
+#img12_3 {
+  width: 288px;
+  height: 288px;
+}
+#img12_4 {
+  width: 288px;
+  height: 288px;
+}
+
 /* Niveau Grotesk Regular
 font-family: "niveau-grotesk", sans-serif;
 font-weight: 400;
