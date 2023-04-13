@@ -301,6 +301,12 @@ header {
   width: 800px;
 }
 
+@media screen and (max-width: 970px) {
+  body {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   p {
     font-size: x-large;
@@ -582,6 +588,64 @@ header {
 #img12_4 {
   width: 288px;
   height: 288px;
+}
+
+@media screen and (max-width: 800px) {
+  .design {
+    width: 100%;
+  }
+  .designpage {
+    margin: 10% 5%;
+  }
+  .designtop {
+    flex-direction: column;
+    gap: 5%;
+  }
+  .designhead {
+    width: 100%;
+  }
+  .designlinks {
+    flex-direction: column;
+    font-size: x-large;
+    margin-top: 5%;
+  }
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+  #img1,
+  #img2_1,
+  #img2_2,
+  #img3_1,
+  #img3_2,
+  #img4 {
+    width: 90%;
+    height: auto;
+  }
+  #img5_1,
+  #img5_2,
+  #img5_3,
+  #img6_1,
+  #img6_2,
+  #img6_3,
+  #img7,
+  #img8_1,
+  #img8_2,
+  #img8_3,
+  #img8_4,
+  #img9,
+  #img10_1,
+  #img10_2,
+  #img10_3,
+  #img10_4,
+  #img11,
+  #img12_1,
+  #img12_2,
+  #img12_3,
+  #img12_4 {
+    width: 90%;
+    height: auto;
+  }
 }
 
 /* Niveau Grotesk Regular
