@@ -406,6 +406,11 @@ header {
   margin: 50px 0px;
   display: flex;
   gap: 60px;
+  justify-content: center;
+}
+
+.designhead {
+  width: 70%;
 }
 
 .designhead h1 {
@@ -428,23 +433,39 @@ header {
 .designlinks a:hover {
   color: black;
 }
+
+.designscope {
+  width: fit-content;
+}
+
 .text_area {
   display: flex;
   flex-direction: row;
   width: 1224px;
   justify-content: space-between;
 }
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 75%;
+  margin: 50px auto 50px auto;
+}
+
 .text h2 {
-  font-size: 1rem;
+  margin-top: 0px;
+  font-size: 1.5rem;
 }
 .text p {
-  column-count: 2;
+  /* column-count: 2;
   column-width: 300px;
   column-gap: 24px;
   column-fill: auto;
   width: 800px;
-  height: 210px;
+  height: 210px; */
   margin: 0px;
+  text-align: left;
 }
 .images {
   display: flex;
