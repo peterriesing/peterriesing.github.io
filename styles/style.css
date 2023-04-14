@@ -476,16 +476,20 @@ header {
 .images {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  row-gap: 24px;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
   margin-top: 24px;
 }
+.imagerow {
+  display: flex;
+  gap: 24px;
+}
 
-.images img {
+/* .images img {
   max-width: 100%;
   height: 100%;
-}
+} */
 
 /* #img1 {
   width: 1224px;
@@ -616,11 +620,20 @@ header {
     font-size: x-large;
     margin-top: 5%;
   }
-  .images {
+  .imagerow {
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
-  #img1,
+  .images > img {
+    width: 100%;
+    height: auto;
+  }
+  .imagerow > img {
+    width: 100%;
+    height: auto;
+  }
+  /* #img1,
   #img2_1,
   #img2_2,
   #img3_1,
@@ -652,7 +665,7 @@ header {
   #img12_4 {
     width: 90%;
     height: auto;
-  }
+  } */
 }
 
 /* Niveau Grotesk Regular
