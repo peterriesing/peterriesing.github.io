@@ -294,14 +294,158 @@ header {
   font-size: 1.5rem;
   margin: 0px;
 }
+
+/* =================== RESUME ==================== */
+
 .resumediv {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: fit-content;
-  margin-top: 80px;
+  margin-top: 120px;
 }
-.resume {
-  width: 800px;
+.resumecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.resumehead {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(199, 219, 215);
+  padding-bottom: 30px;
+}
+.resumebottom {
+  margin: auto;
+}
+.resumehead div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.resumehead h1,
+a {
+  margin: 0px;
+}
+.resumehead button,
+.resumebottom button {
+  border-style: none;
+  background-color: rgb(135, 158, 153);
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+.resumehead a,
+.resumebottom a {
+  text-decoration: none;
+  font-family: "niveau-grotesk", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: white;
+}
+.resumetech {
+  display: flex;
+  justify-content: space-between;
+}
+.resumetech div {
+  width: 320px;
+}
+.resumesection {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(199, 219, 215);
+  padding-bottom: 30px;
+}
+.resumesectiontitle {
+  font-size: 1.5rem;
+  margin: 0px;
+}
+.resumesub {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  gap: 10px;
+}
+.resumesub2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resumeitem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.resumeitemtop {
+  display: flex;
+  gap: 15px;
+}
+.resumeyear {
+  font-size: 1rem;
+  margin: 0px;
+  font-style: italic;
+  font-weight: 500;
+}
+.resumetitle {
+  font-size: 1rem;
+  margin: 0px;
+}
+.resumetitle2 {
+  font-family: "niveau-grotesk-small-caps", sans-serif;
+  font-size: 1rem;
+  margin: 0px;
+  font-style: italic;
+  font-weight: 500;
+}
+.resumedescription {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0px;
+}
+@media screen and (max-width: 970px) {
+  .resumesection {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .resumehead {
+    flex-direction: column;
+  }
+  .resumesection {
+    flex-direction: column;
+  }
+  .resumeitemtop {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .resumeitem {
+    gap: 10px;
+  }
+  .resumesub,
+  .resumesub2 {
+    gap: 30px;
+  }
+  .resumeyear,
+  .resumetitle,
+  .resumetitle2,
+  .resumedescription {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .resumehead div {
+    flex-direction: column;
+  }
+  .resumesectiontitle {
+    font-size: 2rem;
+  }
+  .resumeyear,
+  .resumetitle,
+  .resumetitle2,
+  .resumedescription {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 970px) {
@@ -489,121 +633,6 @@ header {
   gap: 24px;
 }
 
-/* .images img {
-  max-width: 100%;
-  height: 100%;
-} */
-
-/* #img1 {
-  width: 1224px;
-  height: 600px;
-}
-#img2_1 {
-  width: 756px;
-  height: 288px;
-}
-#img2_2 {
-  width: 444px;
-  height: 288px;
-}
-#img3_1 {
-  width: 600px;
-  height: 288px;
-}
-#img3_2 {
-  width: 600px;
-  height: 288px;
-}
-#img4 {
-  width: 1224px;
-  height: 288px;
-}
-
-#img5_1 {
-  width: 288px;
-  height: 756px;
-}
-#img5_2 {
-  width: 600px;
-  height: 756px;
-}
-#img5_3 {
-  width: 288px;
-  height: 756px;
-}
-#img6_1 {
-  width: 444px;
-  height: 288px;
-}
-#img6_2 {
-  width: 288px;
-  height: 288px;
-}
-#img6_3 {
-  width: 444px;
-  height: 288px;
-}
-#img7 {
-  width: 1224px;
-  height: 288px;
-}
-#img8_1 {
-  width: 288px;
-  height: 288px;
-}
-#img8_2 {
-  width: 288px;
-  height: 288px;
-}
-#img8_3 {
-  width: 288px;
-  height: 288px;
-}
-#img8_4 {
-  width: 288px;
-  height: 288px;
-}
-#img9 {
-  width: 1224px;
-  height: 288px;
-}
-#img10_1 {
-  width: 288px;
-  height: 288px;
-}
-#img10_2 {
-  width: 288px;
-  height: 288px;
-}
-#img10_3 {
-  width: 288px;
-  height: 288px;
-}
-#img10_4 {
-  width: 288px;
-  height: 288px;
-}
-#img11 {
-  width: 1224px;
-  height: 132px;
-}
-#img12_1 {
-  width: 288px;
-  height: 288px;
-}
-#img12_2 {
-  width: 288px;
-  height: 288px;
-}
-#img12_3 {
-  width: 288px;
-  height: 288px;
-}
-#img12_4 {
-  width: 288px;
-  height: 288px;
-} */
-
 @media screen and (max-width: 800px) {
   .design {
     width: 100%;
@@ -637,39 +666,6 @@ header {
     width: 100%;
     height: auto;
   }
-  /* #img1,
-  #img2_1,
-  #img2_2,
-  #img3_1,
-  #img3_2,
-  #img4 {
-    width: 90%;
-    height: auto;
-  }
-  #img5_1,
-  #img5_2,
-  #img5_3,
-  #img6_1,
-  #img6_2,
-  #img6_3,
-  #img7,
-  #img8_1,
-  #img8_2,
-  #img8_3,
-  #img8_4,
-  #img9,
-  #img10_1,
-  #img10_2,
-  #img10_3,
-  #img10_4,
-  #img11,
-  #img12_1,
-  #img12_2,
-  #img12_3,
-  #img12_4 {
-    width: 90%;
-    height: auto;
-  } */
 }
 
 /* Niveau Grotesk Regular
