@@ -329,13 +329,13 @@ header {
 a {
   margin: 0px;
 }
-.resumehead button,
+/* .resumehead button,
 .resumebottom button {
   border-style: none;
   background-color: rgb(135, 158, 153);
   padding: 8px 12px;
   border-radius: 3px;
-}
+} */
 .resumehead a,
 .resumebottom a {
   text-decoration: none;
@@ -343,7 +343,17 @@ a {
   font-weight: 900;
   font-size: 1rem;
   color: white;
+  background-color: rgb(135, 158, 153);
+  padding: 8px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
 }
+.resumehead a:hover,
+.resumebottom a:hover {
+  background-color: rgb(84, 104, 99);
+  letter-spacing: 2px;
+}
+
 .resumetech {
   display: flex;
   justify-content: space-between;
@@ -436,6 +446,10 @@ a {
   .resumedescription {
     font-size: 1.5rem;
   }
+  .resumehead a,
+  .resumebottom a {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .resumehead div {
@@ -450,6 +464,10 @@ a {
   .resumedescription {
     font-size: 1.5rem;
   }
+  /* .resumehead a,
+  .resumebottom a {
+    font-size: 2rem;
+  } */
 }
 
 @media screen and (max-width: 970px) {
