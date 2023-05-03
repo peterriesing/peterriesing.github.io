@@ -406,6 +406,7 @@ a {
 @media screen and (max-width: 970px) {
   .resumesection {
     gap: 20px;
+    width: auto;
   }
 }
 @media screen and (max-width: 800px) {
@@ -421,6 +422,9 @@ a {
   }
   .resumeitem {
     gap: 10px;
+  }
+  .resumesub {
+    width: auto;
   }
   .resumesub,
   .resumesub2 {
