@@ -426,6 +426,10 @@ a {
   .resumesection {
     flex-direction: column;
   }
+  .resumesectiontitle {
+    text-align: center;
+    font-size: 2rem;
+  }
   .resumeitemtop {
     flex-direction: column;
     gap: 5px;
@@ -641,6 +645,10 @@ a {
   height: 210px; */
   margin: 0px;
   text-align: left;
+}
+.caption {
+  align-self: flex-start;
+  margin: 0px;
 }
 .images {
   width: 100%;
