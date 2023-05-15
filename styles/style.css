@@ -119,29 +119,43 @@ header {
 /* ===============  INDEX  =============== */
 
 .homediv {
-  margin: 100px auto 0px auto;
+  margin: 64px auto 0px auto;
 }
 
 .hometop {
-  margin: 0px 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  margin: 20px;
+  padding-top: 20px;
+  border-top: 2px solid rgb(199, 219, 215);
 }
+
 .hometop h1 {
   margin: 0px;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-family: "niveau-grotesk", sans-serif;
   font-weight: 700;
   font-style: italic;
-}
-.hometop p {
+  letter-spacing: 2px;
   text-align: left;
 }
 
+.intro {
+  display: flex;
+  gap: 50px;
+  margin: 10% 0px;
+}
+
+.intro img {
+  height: 11rem;
+}
+
+.introtext {
+  font-size: 3rem;
+  font-family: "hoss-sharp", sans-serif;
+  font-weight: 400;
+}
+
 .projdiv {
-  margin-top: 50px;
+  margin: 50px 0px 100px 0px;
   max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
@@ -195,6 +209,15 @@ header {
 .texth1 {
   font-size: 1.25rem;
   text-align: left;
+}
+
+@media screen and (max-width: 699px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .introtext {
+    font-size: 2rem;
+  }
 }
 
 /* ===============  PROJECT PAGES  =============== */
