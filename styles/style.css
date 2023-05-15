@@ -149,7 +149,7 @@ header {
 .intro {
   display: flex;
   gap: 50px;
-  margin: 10% 0px;
+  margin: 10% 20px;
 }
 
 .intro img {
@@ -389,13 +389,6 @@ header {
 a {
   margin: 0px;
 }
-/* .resumehead button,
-.resumebottom button {
-  border-style: none;
-  background-color: rgb(135, 158, 153);
-  padding: 8px 12px;
-  border-radius: 3px;
-} */
 .resumehead a,
 .resumebottom a,
 .resumelink a {
@@ -514,7 +507,8 @@ a {
     font-size: 1.5rem;
   }
   .resumehead a,
-  .resumebottom a {
+  .resumebottom a,
+  .resumelink a {
     font-size: 1.5rem;
   }
 }
@@ -568,24 +562,24 @@ a {
     margin: 0% 5%;
     flex-direction: column;
   }
+  .projtech {
+    margin-bottom: 20px;
+  }
   .projtech h1 {
     font-size: xx-large;
   }
   .projtech h3 {
     font-size: x-large;
   }
+  .about {
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
   .aboutsection {
     flex-direction: column;
-    gap: 20px;
-  }
-  .aboutsection h1 {
-    font-size: xx-large;
   }
   .aboutsection h4 {
     font-size: x-large;
-  }
-  .aboutsection a {
-    font-size: xx-large;
   }
   .projpage {
     margin: 20% 5%;
