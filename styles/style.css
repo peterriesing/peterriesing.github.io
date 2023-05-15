@@ -115,6 +115,14 @@ header {
   right: auto;
   left: 0;
 }
+.socialicons {
+  display: flex;
+  gap: 10px;
+}
+.name {
+  font-weight: 300;
+  font-size: 1rem;
+}
 
 /* ===============  INDEX  =============== */
 
@@ -314,11 +322,17 @@ header {
 .stack {
   display: flex;
   justify-content: space-between;
-  margin: auto 25%;
+  /* margin: auto 25%; */
+}
+.stack h1 {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 .aboutsection {
-  margin: 5% 25%;
+  margin: 5% 0px;
   display: flex;
   gap: 50px;
   align-items: center;
@@ -326,6 +340,19 @@ header {
 .aboutsection h1 {
   font-size: 1.5rem;
   margin: 0px;
+}
+
+/* =================== ABOUT ==================== */
+
+.about {
+  display: flex;
+  gap: 50px;
+  margin: 50px 0px;
+}
+
+.peterpic {
+  height: 500px;
+  margin: 20px;
 }
 
 /* =================== RESUME ==================== */
@@ -370,7 +397,8 @@ a {
   border-radius: 3px;
 } */
 .resumehead a,
-.resumebottom a {
+.resumebottom a,
+.resumelink a {
   text-decoration: none;
   font-family: "niveau-grotesk", sans-serif;
   font-weight: 900;
@@ -382,9 +410,11 @@ a {
   letter-spacing: 1px;
 }
 .resumehead a:hover,
-.resumebottom a:hover {
+.resumebottom a:hover,
+.resumelink a:hover {
   background-color: rgb(84, 104, 99);
   letter-spacing: 2px;
+  color: #ffffff;
 }
 
 .resumetech {
